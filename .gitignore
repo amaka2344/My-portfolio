@@ -1,0 +1,18 @@
+# Local system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local dependencies and logs
+node_modules/
+*.log
+
+# Never commit local configuration or credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx

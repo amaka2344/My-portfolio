@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TruBooker — Blessing Chukwuemeka</title>
+  <meta name="description" content="Blessing Chukwuemeka’s TruBooker case study: passenger booking, driver trips, connector referrals, and platform operations.">
+  <meta name="theme-color" content="#080808">
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="assets/base.css">
+  <link rel="stylesheet" href="assets/site.css?v=trubooker-case-study-1">
+  <script src="assets/site.js" defer></script>
+</head>
+<body id="app-root" class="font-secondary bg-neutral-background text-text-primary antialiased selection:bg-brand-primary selection:text-neutral-background overflow-x-hidden">
+  <div class="fixed inset-0 bg-neutral-background z-[-3]"></div>
+  <div class="fixed inset-0 z-[-2] overflow-hidden pointer-events-none"><div class="grid-infinite-scroll"></div></div>
+  <div class="fixed inset-0 z-[-1] bg-[radial-gradient(circle_at_center,transparent_0%,rgba(8,8,8,0.9)_100%)] pointer-events-none"></div>
+
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="fixed top-0 left-0 right-0 z-50 mix-blend-difference text-white">
+    <nav class="max-w-[1400px] mx-auto px-6 py-8 flex items-center justify-between">
+      <a href="index.html" class="font-primary text-2xl tracking-tight hover:italic transition-all uppercase">Thedesign_gurl</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu <span aria-hidden="true">☰</span></button>
+      <div id="site-nav" class="site-nav hidden md:flex items-center gap-12">
+        <a href="index.html#work" class="text-sm uppercase tracking-widest hover:text-brand-primary transition-colors">Work</a>
+        <a href="about.html" class="text-sm uppercase tracking-widest hover:text-brand-primary transition-colors">About</a>
+        <a href="assets/blessing-chukwuemeka-resume.pdf" data-resume-open aria-haspopup="dialog" class="text-sm uppercase tracking-widest hover:text-brand-primary transition-colors">Résumé</a>
+        <a href="index.html#contact" class="text-sm uppercase tracking-widest hover:text-brand-primary transition-colors">Let's Chat</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="pt-36 pb-24 px-6 max-w-[1400px] mx-auto min-h-screen">
+      <div data-animation-on-scroll="" class="flex flex-wrap items-center gap-12 mb-16 border-b border-white/10 pb-10 text-[10px] font-mono uppercase tracking-[0.3em] text-text-secondary">
+        <div><span class="text-brand-primary block mb-3">Project</span><span class="text-white">TruBooker</span></div>
+        <div><span class="text-brand-primary block mb-3">My role</span><span class="text-white">UI/UX design</span></div>
+        <div><span class="text-brand-primary block mb-3">Scope</span><span class="text-white">Passenger · driver · connector · web</span></div>
+      </div>
+
+      <div data-animation-on-scroll="" class="max-w-5xl mb-24">
+        <h1 class="font-primary text-6xl md:text-8xl lg:text-9xl text-text-primary leading-[0.9] tracking-tighter mb-12">Tru<span class="italic text-brand-primary">Booker</span></h1>
+        <p class="font-secondary text-2xl md:text-3xl font-light text-text-secondary leading-relaxed border-l-2 border-brand-primary/30 pl-8">I designed connected experiences for passengers booking bus travel, drivers running trips, and connectors onboarding drivers. Each group needed a clear path through the same service.</p>
+      </div>
+
+      <div data-animation-on-scroll="" class="mb-32">
+        <div class="aspect-[16/9] w-full overflow-hidden rounded-sm border border-white/5 bg-[#ffc99f]">
+          <img src="assets/trubooker-admin-overview.jpg" alt="TruBooker platform dashboard concept showing trip activity and summary cards" class="w-full h-full object-contain" decoding="async">
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-40">
+        <aside data-animation-on-scroll="" class="lg:col-span-4 lg:sticky lg:top-32 h-fit">
+          <h2 class="font-primary text-4xl text-white mb-6 italic">Behind the work</h2>
+          <div class="h-px w-20 bg-brand-primary mb-8"></div>
+          <p class="text-text-secondary font-mono text-xs uppercase tracking-widest leading-loose">
+            01 / THE BRIEF<br>
+            02 / DIFFERENT PEOPLE, DIFFERENT TASKS<br>
+            03 / THE DESIGN RESPONSE<br>
+            04 / ONE VISUAL LANGUAGE
+          </p>
+        </aside>
+
+        <div data-animation-on-scroll="" class="lg:col-span-8 space-y-12 max-w-3xl">
+          <div class="prose prose-invert prose-lg">
+            <h3 class="text-white font-primary text-3xl mb-6">THE BRIEF</h3>
+            <p class="text-text-secondary text-lg font-light leading-relaxed mb-8">TruBooker set out to make bus travel easier to find and book. My work covered the passenger app, driver app, connector experience, and a marketing landing page. The screens also include a platform dashboard for viewing trips and activity across the service.</p>
+
+            <h3 class="text-white font-primary text-3xl mb-6 mt-12">DIFFERENT PEOPLE, DIFFERENT TASKS</h3>
+            <p class="text-text-secondary text-lg font-light leading-relaxed mb-8">The difficult part was giving each person the right information at the right moment. Passengers needed to search routes, compare options, and book without losing track of the trip details. Drivers needed to create trips, manage passengers, follow a live journey, and see their earnings. Connectors needed to bring drivers onto the platform and keep track of referrals and commissions.</p>
+
+            <h3 class="text-white font-primary text-3xl mb-6 mt-12">THE DESIGN RESPONSE</h3>
+            <p class="text-text-secondary text-lg font-light leading-relaxed mb-8">I treated those as separate journeys within one platform. The passenger flow starts with a route, date, and number of seats. The driver flow brings trip setup and review together before a trip begins, then makes progress and wallet activity easy to find. The connector view puts the referral link and activity in one place. The dashboard brings trip status and related records into a wider operational view.</p>
+
+            <h3 class="text-white font-primary text-3xl mb-6 mt-12">ONE VISUAL LANGUAGE</h3>
+            <p class="text-text-secondary text-lg font-light leading-relaxed">Across the screens, I used clean white surfaces with blue and orange accents so the passenger, driver, connector, and dashboard experiences still felt like TruBooker. The layout changes with each person’s job, while the visual cues stay familiar.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-16 max-w-3xl">
+        <p class="text-brand-primary font-mono text-xs uppercase tracking-widest mb-4">The interface designs</p>
+        <h2 class="font-primary text-4xl md:text-5xl text-white mb-5">What that became.</h2>
+        <p class="text-text-secondary text-lg font-light leading-relaxed">These screens show how the booking, driving, referral, and operations journeys take shape.</p>
+      </div>
+
+      <div class="space-y-24 mb-40">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <figure data-animation-on-scroll="" class="space-y-6">
+            <div class="aspect-[4/5] bg-white border border-white/5 rounded-sm overflow-hidden">
+              <img src="assets/1772854351747_cf2156b97039ee8e_12000x12000.png" alt="Passenger app route search with one-way and round-trip options" class="w-full h-full object-contain" decoding="async" loading="lazy">
+            </div>
+            <figcaption class="text-[10px] font-mono text-text-secondary uppercase tracking-widest text-center">Passenger app · route search and booking setup</figcaption>
+          </figure>
+          <figure data-animation-on-scroll="" class="space-y-6">
+            <div class="aspect-[4/5] bg-[#ffc99f] border border-white/5 rounded-sm overflow-hidden">
+              <img src="assets/trubooker-driver-trip-creation.jpg" alt="Driver app screens for creating a trip and reviewing its summary" class="w-full h-full object-contain" decoding="async" loading="lazy">
+            </div>
+            <figcaption class="text-[10px] font-mono text-text-secondary uppercase tracking-widest text-center">Driver app · create a trip and review the details</figcaption>
+          </figure>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <figure data-animation-on-scroll="" class="space-y-6">
+            <div class="aspect-[4/5] bg-[#ffc99f] border border-white/5 rounded-sm overflow-hidden">
+              <img src="assets/trubooker-driver-tracking-wallet.jpg" alt="Driver app screens for an active trip map and earnings wallet" class="w-full h-full object-contain" decoding="async" loading="lazy">
+            </div>
+            <figcaption class="text-[10px] font-mono text-text-secondary uppercase tracking-widest text-center">Driver app · live trip view and wallet</figcaption>
+          </figure>
+          <figure data-animation-on-scroll="" class="space-y-6">
+            <div class="aspect-[4/5] bg-white border border-white/5 rounded-sm overflow-hidden">
+              <img src="assets/trubooker-connector-referrals.jpg" alt="Connector interface showing a referral link and activity overview" class="w-full h-full object-contain" decoding="async" loading="lazy">
+            </div>
+            <figcaption class="text-[10px] font-mono text-text-secondary uppercase tracking-widest text-center">Connector app · referral link and activity</figcaption>
+          </figure>
+        </div>
+        <figure data-animation-on-scroll="" class="space-y-6 max-w-[900px] mx-auto">
+          <div class="aspect-[4/5] md:aspect-[16/10] bg-[#f9c1b0] border border-white/5 rounded-sm overflow-hidden">
+            <img src="assets/trubooker-admin-trip-detail.jpg" alt="Platform dashboard showing trip details, live tracking, and passenger status" class="w-full h-full object-contain" decoding="async" loading="lazy">
+          </div>
+          <figcaption class="text-[10px] font-mono text-text-secondary uppercase tracking-widest text-center">Platform dashboard · trip details and live tracking</figcaption>
+        </figure>
+      </div>
+
+      <div class="flex justify-between items-center gap-8 border-t border-white/10 pt-16">
+        <a href="index.html#work" class="text-text-secondary hover:text-white transition-colors flex items-center gap-3 font-mono text-xs uppercase tracking-widest">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+          Back to selected work
+        </a>
+        <a href="index.html#contact" class="text-white hover:text-brand-primary transition-colors flex items-center gap-3 font-mono text-xs uppercase tracking-widest">
+          Let’s work together
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 bg-[#080808] pt-16 pb-8 relative z-10">
+    <div class="max-w-[1400px] mx-auto px-6 text-center">
+      <p class="text-text-secondary text-xs uppercase tracking-widest">© 2026 Blessing Chukwuemeka. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
